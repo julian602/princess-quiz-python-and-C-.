@@ -1,0 +1,195 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void quiz1() {
+    cout << "quiz 1 selected\n";
+    cout << "What construction tool are you? Quiz!\n";
+    cout << "Answer the following questions to find out what type of construction tool you are.\n\n";
+
+    // Points accumulator
+    int total_points = 0;
+    string answer;
+
+    // Question 1
+    cout << "1. How do you approach problems?\n";
+    cout << "a) I like to tackle them with brute force.\n";
+    cout << "b) I prefer precision and careful planning.\n";
+    cout << "c) I improvise and adapt as needed.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Hammer
+    } else if (answer == "b") {
+        total_points += 20;  // Level
+    } else if (answer == "c") {
+        total_points += 30;  // Saw
+    }
+
+    // Question 2
+    cout << "\n2. What's your ideal work environment?\n";
+    cout << "a) Outdoors, with a lot of room to move around.\n";
+    cout << "b) Indoors, where I can focus.\n";
+    cout << "c) Anywhere, as long as I can get the job done.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Jackhammer
+    } else if (answer == "b") {
+        total_points += 20;  // Drill
+    } else if (answer == "c") {
+        total_points += 30;  // Multi-tool
+    }
+
+    // Question 3
+    cout << "\n3. How do you handle stress?\n";
+    cout << "a) I power through it.\n";
+    cout << "b) I take a step back and assess the situation.\n";
+    cout << "c) I adapt quickly and find a solution.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Hammer
+    } else if (answer == "b") {
+        total_points += 20;  // Wrench
+    } else if (answer == "c") {
+        total_points += 30;  // Pliers
+    }
+
+    // Question 4
+    cout << "\n4. How do you prefer to work on tasks?\n";
+    cout << "a) I work fast and get it done.\n";
+    cout << "b) I work steadily and take my time.\n";
+    cout << "c) I work in bursts of energy.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Nail Gun
+    } else if (answer == "b") {
+        total_points += 20;  // Screwdriver
+    } else if (answer == "c") {
+        total_points += 30;  // Saw
+    }
+
+    // Question 5
+    cout << "\n5. What's your preferred role in a team?\n";
+    cout << "a) The one who gets things started.\n";
+    cout << "b) The one who fine-tunes and perfects.\n";
+    cout << "c) The one who fills in where needed.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Sledgehammer
+    } else if (answer == "b") {
+        total_points += 20;  // Level
+    } else if (answer == "c") {
+        total_points += 30;  // Multi-tool
+    }
+
+    // Question 6
+    cout << "\n6. How do you feel about getting your hands dirty?\n";
+    cout << "a) I love it, bring on the mess.\n";
+    cout << "b) I don't mind, as long as it gets the job done.\n";
+    cout << "c) I prefer to keep things neat and clean.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Jackhammer
+    } else if (answer == "b") {
+        total_points += 20;  // Wrench
+    } else if (answer == "c") {
+        total_points += 30;  // Laser level
+    }
+
+    // Question 7
+    cout << "\n7. How do you approach learning new skills?\n";
+    cout << "a) Jump right in and learn by doing.\n";
+    cout << "b) Study first, then practice.\n";
+    cout << "c) Watch others and then try.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Power Drill
+    } else if (answer == "b") {
+        total_points += 20;  // Measuring Tape
+    } else if (answer == "c") {
+        total_points += 30;  // Circular Saw
+    }
+
+    // Question 8
+    cout << "\n8. What's your ideal pace of work?\n";
+    cout << "a) Fast and furious.\n";
+    cout << "b) Slow and steady.\n";
+    cout << "c) Depends on the situation.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Nail Gun
+    } else if (answer == "b") {
+        total_points += 20;  // Level
+    } else if (answer == "c") {
+        total_points += 30;  // Multi-tool
+    }
+
+    // Question 9
+    cout << "\n9. How do you prefer to solve complex problems?\n";
+    cout << "a) Break them down and smash through.\n";
+    cout << "b) Analyze every angle before proceeding.\n";
+    cout << "c) Experiment until something works.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Jackhammer
+    } else if (answer == "b") {
+        total_points += 20;  // Level
+    } else if (answer == "c") {
+        total_points += 30;  // Angle Grinder
+    }
+
+    // Question 10
+    cout << "\n10. What's your reaction to unexpected challenges?\n";
+    cout << "a) Tackle them head-on without hesitation.\n";
+    cout << "b) Pause and create a new plan.\n";
+    cout << "c) Adapt and improvise quickly.\n";
+    cout << "Your answer (a/b/c): ";
+    cin >> answer;
+    if (answer == "a") {
+        total_points += 10;  // Sledgehammer
+    } else if (answer == "b") {
+        total_points += 20;  // Wrench
+    } else if (answer == "c") {
+        total_points += 30;  // Multi-tool
+    }
+
+    // Determine the type of construction tool
+    string tool;
+    if (total_points <= 30) {
+        tool = "Hammer";
+    } else if (total_points <= 60) {
+        tool = "Drill";
+    } else if (total_points <= 90) {
+        tool = "Wheelbarrow";
+    } else if (total_points <= 120) {
+        tool = "Portable concrete mixer";
+    } else if (total_points <= 150) {
+        tool = "Plumb bob";
+    } else if (total_points <= 180) {
+        tool = "Jack hammer";
+    } else if (total_points <= 210) {
+        tool = "Concrete saw";
+    } else if (total_points <= 240) {
+        tool = "Plate compactor";
+    } else if (total_points <= 270) {
+        tool = "Forklift";
+    } else {
+        tool = "Excavator";
+    }
+
+    cout << "\nYou are a " << tool << "! You're strong, reliable, and always up for a challenge.\n";
+}
+
+int main() {
+    quiz1();
+    return 0;
+}
